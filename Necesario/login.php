@@ -43,7 +43,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
- 	<link rel="stylesheet" type="text/css" href="style.css"> 
+ 	<link rel="stylesheet" href="style.css"> 
   </head>
   <body>
 
@@ -59,8 +59,8 @@ session_start();
   					<label class="form-label">Password</label>
   					<input type="password" name="password" class="form-control">
   				</div>
-  				<button type="submit" class="btn btn-primary mt-3">Login</button>
-  				<p class="text-center mt-3">You don't have account?<a href="#">Register</a></p>
+  				<button type="submit" class="btn btn-success mt-3">Login</button>
+  				<p class="text-center mt-3">You don't have account?<a href="register.php">Register</a></p>
   			</form>
   		</div>
   	</div>
